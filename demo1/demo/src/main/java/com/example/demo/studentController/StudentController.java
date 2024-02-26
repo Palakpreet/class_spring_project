@@ -1,8 +1,9 @@
 package com.example.demo.studentController;
-import com.example.demo.studentrepo.studentrepo;
 import com.example.demo.studentdatamodel;
-import java.util.Map;
-import java.util.HashMap;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+import java.util.*;
 public class StudentController{
        Map<String ,studentmodel >IdtoStudent=new HashMap<>();
        Map<String, studentmodel>UnitoStudent=new HashMap<>();
