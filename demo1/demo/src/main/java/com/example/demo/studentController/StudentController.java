@@ -1,5 +1,5 @@
 package com.example.demo.studentController;
-import com.example.demo.studentdatamodel;
+import com.example.demo.studentdatamodel.studentmodel;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
